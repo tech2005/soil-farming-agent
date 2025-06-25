@@ -1,0 +1,96 @@
+/* General Page Styling */
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #388e3c; /* Greenish tone */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #c8e6c9 !important;
+}
+.card-title {
+  font-size: 1.25rem;
+  color: #1c3c23;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+.section-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.section-card h5 {
+  font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('images/soil-hero.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 20px;
+}
+
+.features .card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.features .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+}
